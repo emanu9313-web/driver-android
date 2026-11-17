@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TaxiGO</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="register_title">Crear Cuenta</string>
+    <string name="email_label">Correo electrónico</string>
+    <string name="password_label">Contraseña</string>
+    <string name="name_label">Nombre completo</string>
+    <string name="phone_label">Teléfono</string>
+    <string name="role_label">Tipo de usuario</string>
+    <string name="vehicle_model_label">Modelo del vehículo</string>
+    <string name="vehicle_plate_label">Placa del vehículo</string>
+    <string name="vehicle_color_label">Color del vehículo</string>
+    <string name="login_button">INGRESAR</string>
+    <string name="register_button">REGISTRARSE</string>
+    <string name="logout_button">Cerrar Sesión</string>
+    <string name="no_account_prompt">¿No tienes una cuenta? Regístrate</string>
+    <string name="has_account_prompt">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="passenger_role">Pasajero</string>
+    <string name="driver_role">Conductor</string>
+    <string name="admin_role">Administrador (Control)</string>
+    <string name="active_service">Servicio Activo</string>
+    <string name="history_title">Historial de Viajes</string>
+    <string name="profile_title">Perfil de Usuario</string>
+    <string name="request_taxi">SOLICITAR TAXI</string>
+    <string name="cancel_service">Cancelar Servicio</string>
+    <string name="accept_ride">ACEPTAR VIAJE</string>
+    <string name="online_status">En línea (Disponible)</string>
+    <string name="offline_status">Fuera de línea</string>
+</resources>

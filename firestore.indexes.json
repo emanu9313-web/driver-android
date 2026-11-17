@@ -1,0 +1,46 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "drivers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isOnline", "order": "ASCENDING" },
+        { "fieldPath": "isApproved", "order": "ASCENDING" },
+        { "fieldPath": "location.geohash", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "passengerId", "order": "ASCENDING" },
+        { "fieldPath": "createdAtMillis", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "driverId", "order": "ASCENDING" },
+        { "fieldPath": "createdAtMillis", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "createdAtMillis", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "ratings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "driverId", "order": "ASCENDING" },
+        { "fieldPath": "createdAtMillis", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
